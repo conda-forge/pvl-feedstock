@@ -1,6 +1,6 @@
 {% set name = "pvl" %}
-{% set version = "0.2.0" %}
-{% set sha256 = "374e0c82bf53520066abc3f4b99b7cdd45f635519d28064add6f6b781279d491" %}
+{% set version = "0.3.0" %}
+{% set sha256 = "8074789627a1aecf57b677456d9922483c903d3da4ccc265e918ad21e2bac87f" %}
 
 package:
   name: {{ name|lower }}
