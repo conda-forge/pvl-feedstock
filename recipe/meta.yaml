@@ -1,6 +1,6 @@
 {% set name = "pvl" %}
-{% set version = "0.3.0" %}
-{% set sha256 = "8074789627a1aecf57b677456d9922483c903d3da4ccc265e918ad21e2bac87f" %}
+{% set version = "1.0.0" %}
+{% set sha256 = "2953839958abafa98dafb3a5d4c72db3c9530165e642b8e3ca23498ac698dfdd" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
@@ -23,8 +23,6 @@ requirements:
     - setuptools
   run:
     - python
-    - pytz
-    - six
 
 test:
   imports:
@@ -48,3 +46,4 @@ about:
 extra:
   recipe-maintainers:
     - pbvarga1
+    - rbeyer
