@@ -1,6 +1,6 @@
 {% set name = "pvl" %}
-{% set version = "1.0.0" %}
-{% set sha256 = "2953839958abafa98dafb3a5d4c72db3c9530165e642b8e3ca23498ac698dfdd" %}
+{% set version = "1.0.1" %}
+{% set sha256 = "bd937fb41fe1acc8f1829569b985e86207ba073d807727421a543ba6d76c6aa4" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -33,7 +33,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'Python implementation of PVL (Parameter Value Language)'
+  summary: Python implementation of PVL (Parameter Value Language)
 
   description: |
     PVL is a markup language, similar to xml, commonly employed for entries in
