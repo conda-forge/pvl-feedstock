@@ -5,9 +5,13 @@ Home: http://github.com/planetarypy/pvl
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pvl-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python implementation of PVL (Parameter Value Language)
+
+Development: https://github.com/planetarypy/pvl
+
+Documentation: http://pvl.readthedocs.org
 
 PVL is a markup language, similar to xml, commonly employed for entries in
 the Planetary Database System used by NASA to store mission data, among other
