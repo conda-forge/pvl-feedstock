@@ -1,6 +1,6 @@
 {% set name = "pvl" %}
-{% set version = "1.3.0" %}
-{% set sha256 = "c7b680f6da4bc184663137d4cce66c9541a8ca7381f44d7344d752c2e2384469" %}
+{% set version = "1.3.1" %}
+{% set sha256 = "e7997ad86d21f0546bcfdad503fd2d30ca88bc37488a0ffd0f5d0c9ff84e7fc2" %}
 
 package:
   name: {{ name|lower }}
@@ -45,5 +45,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - pbvarga1
     - rbeyer
